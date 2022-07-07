@@ -23,7 +23,27 @@ $ notype
 Thankfully, after being hit with a car, the victim survived and will make a full recovery soon.
 $ endif
 
+$ if || string || endName || killSea
+$ notype
+They find Alex, who they arrest on scene.
+$ notype
+Thankfully, the victim's body was found by some sailors. They resuscitated the man who claimed he was hit by a car.
+$ notype
+Alex confesses but drags {name} down with him by claiming he was helping the murder, with the text messages as evidence.
+$ notype
+You and Alex are both arrested shortly after for attempted murder.
+$ endif
 
+$ if || string || endName || killStab
+$ notype
+They find Alex, who they arrest on scene.
+$ notype
+Unfortunately, the victims' body was found by some sailors who were not able to resuscitate the man because of his fatal stab wounds.
+$ notype
+Alex confesses but drags {name} down with him by claiming he was helping the murder, with the text messages as evidence.
+$ notype
+You and Alex are both arrested shortly after for murder.
+$ endif
 
 $ notype
 This game has multiple endings, would you like to try again?

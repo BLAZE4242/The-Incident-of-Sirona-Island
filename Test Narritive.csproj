@@ -191,6 +191,12 @@
     <Content Include="Scripts\hi there uwu\Investigate\investigate the car\follow tire tracks\Kills person\investigateCar_runAwayAfterKill.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Scripts\hi there uwu\Investigate\investigate the car\follow tire tracks\Kills person\killBody_sea.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Scripts\hi there uwu\Investigate\investigate the car\follow tire tracks\Kills person\killBody_stab.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Scripts\hi there uwu\Investigate\investigate the car\follow tire tracks\run away\investigateCar_alexCallsPolice.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

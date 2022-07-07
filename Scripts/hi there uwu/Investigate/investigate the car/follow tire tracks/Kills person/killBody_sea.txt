@@ -1,0 +1,21 @@
+﻿$ define || string || endName || killSea
+
+Holy shit {name}.
+I trust you.
+I trust you so much.
+I hope you know what you're doing.
+Just... give me a minute...
+$ wait || 2
+Okay, here goes nothing.
+$ wait || 3
+Okay, I think it's done.
+I can't really see the body anymore...
+Shit I feel sick.
+Why did I just do that?
+Why did I just listen to you?
+This is your fault, I'm going.
+Good night.
+
+$ choice
+Good night... || ending_decide
+$ endchoice

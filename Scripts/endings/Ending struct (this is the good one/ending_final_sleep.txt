@@ -23,6 +23,26 @@ $ notype
 It would not be until years later, Alex would confess and be arrested.
 $ endif
 
+$ if || string || endName || killSea
+$ notype
+You haven't heard from Alex in a while.
+$ notype
+Over 2 weeks later, you read on the news; a man who was hit by a car and thrown into sea was found by some sailors. They resuscitated the man who claimed he was hit by a car.
+$ notype
+Using this information the police find and arrest Alex who claims a man named {name} was helping her all along.
+$ notype
+You and Alex are both arrested shortly after for attempted murder.
+$ endif
+
+$ if || string || endName || killStab
+$ notype
+You haven't heard from Alex in a while.
+$ notype
+Over 2 weeks later, you read on the news; a man who was hit by a car and thrown into sea was found by some sailors. They failed to resuscitate the man as he had fatal stab wounds.
+$ notype
+Alex walks away a free man facing no charges and getting away with murder, but forever holds the guilt of it.
+$ endif
+
 $ notype
 This game has multiple endings, would you like to try again?
 $ choice
