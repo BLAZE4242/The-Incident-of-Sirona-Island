@@ -1,0 +1,10 @@
+$ notype
+You open the phone app and dial 911
+$ wait || 1
+$ notype
+911 what's your emergency?
+
+$ choice
+I'm here to report a crime, my friend just committed a hit and run. || ending_final_police
+Actually, never mind || ending_police
+$ endchoice

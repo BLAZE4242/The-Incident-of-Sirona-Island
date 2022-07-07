@@ -1,0 +1,6 @@
+﻿What, why?
+He could still be alive why would I run?
+
+$ choice
+Run and don't let anyone see you near the body || investigateCar_runAwayConfirm
+$ endchoice

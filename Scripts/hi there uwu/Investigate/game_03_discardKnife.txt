@@ -1,0 +1,7 @@
+﻿$ define || string || hasKnife || false
+Awwww :(
+I might actually need to use it tho.
+But whatever, don't want to accidentally cut myself lol
+$ wait || 1
+Alright, I put it back in the car :)
+$ goto || outsideCar

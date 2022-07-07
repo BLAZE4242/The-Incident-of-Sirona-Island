@@ -1,0 +1,6 @@
+﻿Huh?
+Why? What's that gonna do?
+
+$ choice
+There might be blood. || investigateCar
+$ endchoice

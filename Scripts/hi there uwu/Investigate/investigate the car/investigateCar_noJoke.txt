@@ -1,0 +1,8 @@
+﻿{name} this is not a time for jokes.
+fuck what if it was a person.
+what if I fucking killed someone?
+
+$ choice
+Stay calm, I'm here for you || investigateCar_panicAttack
+What if it was just an animal? || investigateCar_panicAttack
+$ endchoice

@@ -98,6 +98,9 @@
     <Content Include="Scripts\endings\Ending struct %28this is the good one\ending_final_sleep.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Scripts\endings\Ending struct %28this is the good one\ending_police.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Scripts\endings\Ending struct %28this is the good one\ending_sleep.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -155,6 +158,54 @@
     <Content Include="Scripts\hi there uwu\game_03.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Scripts\hi there uwu\Investigate\game_03_investigate.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Scripts\hi there uwu\Investigate\game_03_discardKnife.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Scripts\hi there uwu\Investigate\game_03_keepKnife.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Scripts\hi there uwu\Investigate\investigate the car\follow tire tracks\investigateCar_findBody.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Scripts\hi there uwu\Investigate\investigate the car\follow tire tracks\investigateCar_followTire.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Scripts\hi there uwu\Investigate\investigate the car\follow tire tracks\run away\investigateCar_alexCallsPolice.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Scripts\hi there uwu\Investigate\investigate the car\follow tire tracks\run away\investigateCar_alexDontCallPolice.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Scripts\hi there uwu\Investigate\investigate the car\follow tire tracks\run away\investigateCar_alexDontCallPoliceFinal.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Scripts\hi there uwu\Investigate\investigate the car\follow tire tracks\run away\investigateCar_runAway.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Scripts\hi there uwu\Investigate\investigate the car\follow tire tracks\run away\investigateCar_runAwayConfirm.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Scripts\hi there uwu\Investigate\investigate the car\investigateCar.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Scripts\hi there uwu\Investigate\investigate the car\investigateCar_humanBlood.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Scripts\hi there uwu\Investigate\investigate the car\investigateCar_noJoke.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Scripts\hi there uwu\Investigate\investigate the car\investigateCar_panicAttack.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Scripts\hi there uwu\Investigate\investigate the car\outsideCar_investigateCar.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Scripts\hi there uwu\Investigate\outsideCar.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Scripts\main.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -163,7 +214,8 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Scripts\hi there uwu\Investigate\" />
+    <Folder Include="Scripts\hi there uwu\Investigate\investigate the car\follow tire tracks\check breathing\" />
+    <Folder Include="Scripts\hi there uwu\Investigate\search for help\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,0 +1,7 @@
+﻿How the hell am I supposed to tell if it's human blood or animal blood???
+Think {name}, think!
+
+$ choice
+Does it taste like human blood? || investigateCar_panicAttack
+Sorry I'm just trying to help! || investigateCar_panicAttack
+$ endchoice

@@ -1,0 +1,10 @@
+﻿Dude it is freeeeezing cold.
+Wish I was wearing a hoodie right now.
+$ wait || 1.5
+Well, I'm out like you wanted...
+What now?
+
+$ choice
+Investigate the car || outsideCar_investigateCar
+Search around for help || outsideCar_searchForHelp
+$ endchoice

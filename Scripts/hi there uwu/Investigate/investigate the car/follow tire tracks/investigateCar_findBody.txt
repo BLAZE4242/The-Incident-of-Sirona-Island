@@ -1,0 +1,9 @@
+﻿Sorry about that.
+I followed the trails and found something then had a panic attack for a few minutes.
+{name} I found a fucking body.
+Like a human body, it's a man.
+
+$ choice
+Is he breathing? || investigateCar_questionAlive
+Run away right now. || investigateCar_runAway
+$ endchoice

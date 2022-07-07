@@ -1,0 +1,4 @@
+﻿$ define || string || hasKnife || true
+Yeah, that's what I was thinking.
+Just in case :)
+$ goto || outsideCar

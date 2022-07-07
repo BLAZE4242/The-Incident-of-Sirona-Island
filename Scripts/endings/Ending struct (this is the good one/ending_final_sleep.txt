@@ -3,14 +3,25 @@ THE END.
 
 $ if || string || endName || alexRest
 $ notype
-The next day, you don't get a response from Alex.
+You haven't heard from Alex in a while.
 $ notype
 Over 2 weeks later, the police finally report that Alex committed suicide in his car from guilt over that night.
 $ notype
-Alex had hit a man with his car, who died in a coma a few hours later.
+Alex had hit a man with his car, who somehow survived the incident, but went missing a few hours later in the woods. 
 $ endif
 
-
+$ if || string || endName || alexFindBodyAndRun
+$ notype
+You haven't heard from Alex in a while.
+$ notype
+Over 2 weeks later, the police find the blood where Alex had hit the man, but there was no body.
+$ notype
+The man had survived the incident, but went missing a few hours later in the woods.
+$ notype
+The police were not able to locate any evidence of any person on the scene of the crime as Alex had used his car to drive away.
+$ notype
+It would not be until years later, Alex would confess and be arrested.
+$ endif
 
 $ notype
 This game has multiple endings, would you like to try again?

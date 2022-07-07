@@ -1,0 +1,19 @@
+﻿Okay, here we go.
+I'll just text you when I find something, so just stay online pls.
+
+$ if || string || hasKnife || true
+Tbh I feel a bit safer with my knife
+$ endif
+
+$ if || string || hasKnife || false
+Fuck I'm really scared
+$ endif
+
+I'll talk to you soon.
+
+$ wait || 3
+{name}? {name} are you there?
+
+$ choice
+It's been a few minutes what happened? || investigateCar_findBody
+$ endchoice

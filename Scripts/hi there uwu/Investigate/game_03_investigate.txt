@@ -1,0 +1,11 @@
+﻿Yeah you're right.
+$ wait || 0.5
+Okay, easy does it, I got this.
+$ wait || 3
+Alright, I'm outside now, I had to try to not cut myself on all the smashed glass lol
+I also bought my knife as well haha
+
+$ choice
+Good, keep it just in case || game_03_keepKnife
+What the hell do you need a knife for? Get rid of it! || game_03_discardKnife
+$ endchoice

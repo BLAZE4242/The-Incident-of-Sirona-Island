@@ -1,0 +1,14 @@
+﻿$ define || string || endName || alexFindBodyAndRun
+
+$ wait || 1.5
+Okay, fine.
+I trust you {name}.
+I trust you...
+What do I do now then?
+Guess I'm going to go back and find my car...
+$ wait || 1
+Good night {name}.
+
+$ choice
+Good night. || ending_final_sleep
+$ endchoice

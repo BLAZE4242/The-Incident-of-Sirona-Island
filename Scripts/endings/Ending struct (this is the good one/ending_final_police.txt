@@ -14,6 +14,15 @@ $ notype
 Thankfully, after being hit with a car, the victim survived and will make a full recovery soon. 
 $ endif
 
+$ if || string || endName || alexFindBodyAndRun
+$ notype
+They find an unconscious man laying on the side of the road after being hit by a car.
+$ notype
+Alex reveals his hiding spot in his car and is immediately arrested.
+$ notype
+Thankfully, after being hit with a car, the victim survived and will make a full recovery soon.
+$ endif
+
 
 
 $ notype

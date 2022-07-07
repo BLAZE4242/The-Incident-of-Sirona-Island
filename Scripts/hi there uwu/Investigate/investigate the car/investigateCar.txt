@@ -1,0 +1,13 @@
+﻿{name} are you really trying to scare me?
+Because it's not working!
+Please stay serious with me.
+But whatever, I'll look around, gimme a min.
+$ wait || 3
+Oh fuck.
+It's too dark to tell but...
+holy shit I think there's blood on the front and side of the car.
+
+$ choice
+BOOM! Told you! || investigateCar_noJoke
+Is it human blood? || investigateCar_humanBlood
+$ endchoice

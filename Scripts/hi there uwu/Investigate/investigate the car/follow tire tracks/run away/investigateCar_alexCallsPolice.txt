@@ -1,0 +1,9 @@
+﻿$ define || string || endName || alexFindBodyAndRun
+
+Okay, I'm gonna do that now.
+Wish me luck...
+Good night {name}.
+
+$ choice
+Good night. || ending_final_police
+$ endchoice

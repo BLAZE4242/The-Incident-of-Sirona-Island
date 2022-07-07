@@ -1,0 +1,8 @@
+﻿Holy shit {name}...
+I think I can see my tire marks in the dirt.
+I have to follow these to whatever I hit...
+Don't I?
+
+$ choice
+I think you do... || investigateCar_followTire
+$ endchoice
