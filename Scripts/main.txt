@@ -1,0 +1,15 @@
+$ define || float || leftCount || 0
+$ define || float || rightCount || 0
+$ define || config || textColour || white
+$ define || config || choiceSelectColour || red
+
+$ wait || 2
+3:00 AM, Austin, Texas.
+A man wakes up to his phone being spammed with messages.
+$ define || string || name || input || What is the name of the man?
+{name} checks his phone.
+
+$ choice
+left || left 1
+right || right 1
+$ endchoice
