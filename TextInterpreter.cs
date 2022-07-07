@@ -51,21 +51,7 @@ namespace Test_Narritive
         public static Dictionary<string, ConsoleColor> scriptHistory = new Dictionary<string, ConsoleColor>();
         bool interpretLine(string line) // returns true if can read line
         {
-            if (line.StartsWith("$ choice"))
-            {
-                isInChoiceLoop = true;
-            }
-            else if (line.StartsWith("$ endchoice"))
-            {
-                isInChoiceLoop = false;
-                Console.WriteLine("");
-                _choice.MakeChoice(choiceAction);
-            }
-            else if (isInChoiceLoop)
-            {
-                choiceAction.Add(SplitByString(line, " || ")[0], SplitByString(line, " || ")[1]);
-            }
-            else if (line.StartsWith("$ if"))
+            if (line.StartsWith("$ if"))
             {
                 isInIfLoop = true;
                 isConditionTrue = IfCondition.IsConditionTrue(SplitByString(line, " || "));
@@ -78,6 +64,20 @@ namespace Test_Narritive
             else if(isInIfLoop && !isConditionTrue)
             {
                 return false;
+            }
+            else if (line.StartsWith("$ choice"))
+            {
+                isInChoiceLoop = true;
+            }
+            else if (line.StartsWith("$ endchoice"))
+            {
+                isInChoiceLoop = false;
+                Console.WriteLine("");
+                _choice.MakeChoice(choiceAction);
+            }
+            else if (isInChoiceLoop)
+            {
+                choiceAction.Add(SplitByString(line, " || ")[0], SplitByString(line, " || ")[1]);
             }
             else if (line.StartsWith("$ goto"))
             {

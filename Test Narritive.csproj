@@ -200,7 +200,9 @@
     <Content Include="Scripts\hi there uwu\Investigate\investigate the car\follow tire tracks\run away\investigateCar_alexDontCallPoliceFinal.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Scripts\hi there uwu\Investigate\investigate the car\follow tire tracks\run away\investigateCar_alexRunsAway.txt" />
+    <Content Include="Scripts\hi there uwu\Investigate\investigate the car\follow tire tracks\run away\investigateCar_alexRunsAway.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Scripts\hi there uwu\Investigate\investigate the car\follow tire tracks\run away\investigateCar_runAway.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
