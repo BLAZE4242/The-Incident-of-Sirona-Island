@@ -1,0 +1,7 @@
+What? Why would I do that?
+Why should I be calm now I might have just hit a person with my car!
+
+$ choice
+You're stressing too much, just go to sleep and spend the night in your car || game_03_alexConfirmsSleep
+You're right, maybe you should go investigate || game_03_investigate
+$ endchoice

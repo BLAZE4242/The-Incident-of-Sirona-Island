@@ -1,0 +1,4 @@
+$ notype
+You turn your phone off and go to sleep.
+$ wait || 1.5
+$ goto || ending_final_sleep || true

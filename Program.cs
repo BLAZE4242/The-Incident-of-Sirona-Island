@@ -10,7 +10,7 @@ namespace Test_Narritive
         public static void Main(string[] args)
         {
             UserSelectsChoice managerOrSmthin = new UserSelectsChoice();
-            managerOrSmthin.OnUserMakesChoice("main");
+            managerOrSmthin.OnUserMakesChoice("startGame");
 
             //ChoicesLogic _choice = new ChoicesLogic();
             //_choice.MakeChoice("Choice one?", "Choice two!", "This might be choice 3", "is this one 4 I kinda forgot", "A 5th option????");

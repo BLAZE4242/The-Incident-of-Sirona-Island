@@ -4,12 +4,13 @@ $ define || config || textColour || white
 $ define || config || choiceSelectColour || red
 
 $ wait || 2
+$ notype
 3:00 AM, Austin, Texas.
+$ notype
 A man wakes up to his phone being spammed with messages.
 $ define || string || name || input || What is the name of the man?
+$ notype
 {name} checks his phone.
+$ wait || 2
 
-$ choice
-left || left 1
-right || right 1
-$ endchoice
+$ goto || startGame || true

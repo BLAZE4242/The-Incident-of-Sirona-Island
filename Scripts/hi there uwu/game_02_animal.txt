@@ -1,0 +1,6 @@
+I really hope so
+$ wait || 1
+Because if it wasn't...
+fuck
+I hope I'm not gonna go to jail
+$ goto || game_03

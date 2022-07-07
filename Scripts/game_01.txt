@@ -1,0 +1,7 @@
+oh thank god you're finally here
+i have no idea im just so scared right now
+
+$ choice
+What the hell happened? || game_01_angry
+It's okay, I'm here now. || game_01_comfort
+$ endchoice

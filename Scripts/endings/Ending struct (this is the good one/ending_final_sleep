@@ -1,0 +1,20 @@
+$ notype
+THE END.
+
+$ if || string || endName || alexRest
+$ notype
+The next day, you don't get a response from Alex.
+$ notype
+Over 2 weeks later, the police finally report that Alex committed suicide in his car from guilt over that night.
+$ notype
+Alex had hit a man with his car, who died in a coma a few hours later.
+$ endif
+
+
+
+$ notype
+This game has multiple endings, would you like to try again?
+$ choice
+Yes || main
+No || pass
+$ endchoice

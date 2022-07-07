@@ -1,0 +1,24 @@
+$ notype
+THE END.
+$ notype
+The next morning the police arrive on the scene.
+
+$ if || string || endName || alexRest
+$ notype
+They find an unconscious man laying on the side of the road after being hit by a car.
+$ notype
+Following the tire scratches on the dirt, they locate Alex, unconscious in his car.
+$ notype
+With a piece of glass from the car window stabbed into Alex's chest, the police mark the event as a suicide after Alex panicked from hitting a man with his car.
+$ notype
+Thankfully, after being hit with a car, the victim survived and will make a full recovery soon. 
+$ endif
+
+
+
+$ notype
+This game has multiple endings, would you like to try again?
+$ choice
+Yes || main
+No || pass
+$ endchoice

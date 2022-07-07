@@ -1,0 +1,9 @@
+I have no idea...
+It was tall tho I remember that.
+But it all happened so fast I couldn't really see.
+Oh fuck what if it was a person...
+
+$ choice
+It might have just been an animal || game_02_animal
+Then I hope you didn't kill them || game_02_human
+$ endchoice

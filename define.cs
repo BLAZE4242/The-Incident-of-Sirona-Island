@@ -12,7 +12,8 @@ namespace Test_Narritive
         public static Dictionary<string, string> configVariables = new Dictionary<string, string>()
         {
             { "choiceSelectColour", "blue" },
-            { "textColour", "white" }
+            { "textColour", "white" },
+            { "dev", "false" }
         };
 
         public static ConsoleColor stringToColour(string colour)

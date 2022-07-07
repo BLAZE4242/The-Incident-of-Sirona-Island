@@ -1,0 +1,9 @@
+So pretty much you know how I'm out on that vacation?
+I just landed on the island.
+Was really a shit trip but I'll tell you about that later lol
+I was really tired after the 12 hour flight and I was driving and it was really dark...
+
+$ choice
+Oh my god did you have an accident? || game_01_accident
+Why would you be driving if you were tired? || game_01_tired
+$ endchoice

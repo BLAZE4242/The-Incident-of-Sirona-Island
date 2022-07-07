@@ -1,0 +1,10 @@
+$ notype
+Alex is offline.
+$ wait || 2
+$ notype
+What do you do now?
+
+$ choice
+Go back to sleep || ending_sleep
+Call the police || ending_police
+$ endchoice

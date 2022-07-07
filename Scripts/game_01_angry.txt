@@ -1,0 +1,4 @@
+JUST SHUT UP ALREADY AND LET ME TALK
+$ wait || 1
+okay sorry that was kind of rude
+$ goto || game_02

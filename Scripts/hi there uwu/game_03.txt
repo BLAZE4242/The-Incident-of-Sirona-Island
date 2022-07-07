@@ -1,0 +1,8 @@
+I'm rly scared.
+I can barely see anything outside
+wtf do I do?
+
+$ choice
+Okay, just calm down, put on some music and breathe || game_03_breathe
+You need to go outside and investigate || game_03_investigate
+$ endchoice

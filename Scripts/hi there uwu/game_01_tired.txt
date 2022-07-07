@@ -1,0 +1,8 @@
+Dude idk why okay?
+I was dumb sorry
+but I'm awake now
+
+$ choice
+Are you okay? || game_02_okay
+Did you see what you hit? || game_02_questionHit
+$ endchoice

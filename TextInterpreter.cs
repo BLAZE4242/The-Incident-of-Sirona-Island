@@ -32,10 +32,7 @@ namespace Test_Narritive
 
                 if (interpretLine(scriptContent[i]))
                 {
-                    if (!scriptContent[i + 2].StartsWith("$ choice")) // has to be +2 because there (should be) a line gap between last text and "$ choice" and I'm too lazy to program this logic
-                    {
-                        //WaitForInput();
-                    }
+                    
                 }
             }
         }
@@ -44,6 +41,8 @@ namespace Test_Narritive
 
         bool isInIfLoop = false; // wtf
         bool isConditionTrue = false;
+
+        bool shouldTypeLine = true;
 
         int changeTempColour = 0;
         string oldColour;
@@ -82,13 +81,18 @@ namespace Test_Narritive
             }
             else if (line.StartsWith("$ goto"))
             {
+                if (SplitByString(line, " || ").Length > 2 && SplitByString(line, " || ")[2] == "true")
+                {
+                    scriptHistory = new Dictionary<string, ConsoleColor>();
+                    Console.Clear();
+                }
                 new UserSelectsChoice().OnUserMakesChoice(SplitByString(line, " || ")[1], false);
                 shouldKillTask = true;
                 return false;
             }
             else if (line.StartsWith("$ wait"))
             {
-                Thread.Sleep(int.TryParse(SplitByString(line, " || ")[1], out var timeToWait) ? timeToWait * 1000 : 0); // ? operator is for if statements, if_true : if_false
+                if (define.configVariables["dev"] != "true") Thread.Sleep(int.TryParse(SplitByString(line, " || ")[1], out var timeToWait) ? timeToWait * 1000 : 0); // ? operator is for if statements, if_true : if_false
                 return false;
             }
             else if(line.StartsWith("$ colour")) // L for us
@@ -99,15 +103,8 @@ namespace Test_Narritive
             }
             else if(line.StartsWith("$ notype"))
             {
-                if (changeTempColour > 1)
-                {
-                    define.configVariables["textColour"] = oldColour;
-                }
-                else if (changeTempColour > 0)
-                {
-                    changeTempColour++;
-                }
-                return WriteText(line, define.stringToColour(define.configVariables["textColour"]));
+                shouldTypeLine = false;
+                return false;
             }
             else if (line.StartsWith("$ define"))
             {
@@ -123,13 +120,20 @@ namespace Test_Narritive
                 {
                     changeTempColour++;
                 }
-                Console.ForegroundColor = ConsoleColor.Gray;
-                Console.WriteLine("Alex is typing...");
-                Thread.Sleep(timeToType(line));
-                Console.ResetColor();
-                Console.CursorTop = Console.CursorTop - 1;
-                Console.Write(new string(' ', Console.WindowWidth));
-                Console.CursorTop = Console.CursorTop - 1;
+                if (shouldTypeLine)
+                {
+                    Console.ForegroundColor = ConsoleColor.Gray;
+                    Console.WriteLine("Alex is typing...");
+                    if (define.configVariables["dev"] != "true") Thread.Sleep(timeToType(line));
+                    Console.ResetColor();
+                    Console.CursorTop = Console.CursorTop - 1;
+                    Console.Write(new string(' ', Console.WindowWidth));
+                    Console.CursorTop = Console.CursorTop - 1;
+                }
+                else
+                {
+                    shouldTypeLine = true;
+                }
                 return WriteText(line, define.stringToColour(define.configVariables["textColour"]));
             }
 
@@ -140,7 +144,7 @@ namespace Test_Narritive
         {
             //return 4f;
             int wordCount = message.Split(' ').Length;
-            return (int)Math.Round(wordCount * 0.3f / 2) * 1000;
+            return (int)Math.Round(wordCount * 0.3f) * 1000;
         }
 
         public static bool WriteText(string line, ConsoleColor colour)
@@ -160,7 +164,7 @@ namespace Test_Narritive
             scriptHistory.Add(lineToPrint, colour);
             Console.ForegroundColor = colour;
             Console.WriteLine(lineToPrint);
-            Thread.Sleep(1400);
+            if(define.configVariables["dev"] != "true") Thread.Sleep(1400);
             return true;
         }
 

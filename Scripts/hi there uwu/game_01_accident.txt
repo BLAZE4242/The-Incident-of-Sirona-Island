@@ -1,0 +1,9 @@
+No!
+$ wait || 1
+Wait actually yes I did
+Kind of
+
+$ choice
+Are you okay? || game_02_okay
+Did you see what you hit? || game_02_questionHit
+$ endchoice

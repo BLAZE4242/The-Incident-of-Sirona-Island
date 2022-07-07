@@ -1,0 +1,7 @@
+Are you sure?
+I think I should try to work out what's going on right now...
+
+$ choice
+Everything will be okay, just rest your eye's for a bit || end_alexRest
+Okay, maybe you should go outside and investigate || game_03_investigate
+$ endchoice

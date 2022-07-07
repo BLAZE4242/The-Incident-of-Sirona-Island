@@ -1,0 +1,8 @@
+I think so?
+I can move and feel my arms.
+That's good right?
+
+$ choice
+What about your legs? || game_02_legs
+Is your head okay? || game_02_head
+$ endchoice

@@ -1,0 +1,10 @@
+$ define || string || endName || alexRest
+
+Okay, maybe you're right...
+$ wait || 1.5
+I trust you {name}.
+Good night.
+
+$ choice
+Good night. || ending_decide
+$ endchoice

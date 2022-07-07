@@ -1,0 +1,6 @@
+Umm lemme see...
+$ wait || 1.5
+Yeah I can move them.
+It's kind of cramped in the car tho
+So at least I think I didn't break anything!
+$ goto || game_03

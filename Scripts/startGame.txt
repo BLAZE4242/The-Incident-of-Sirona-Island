@@ -1,0 +1,20 @@
+﻿$ define || config || dev || true
+
+$ define || string || victimSurvives || true
+$ define || string || alexLocation || car
+$ define || string || callsPolice || false
+
+$ define || string || endName || null
+
+hey
+u there?
+{name}??
+{name} pls pick up
+fuck {name}, im fucking freaking out pick up rn pls
+
+
+
+$ choice
+What the hell's going on? || game_01
+Are you okay? || game_01
+$ endchoice
