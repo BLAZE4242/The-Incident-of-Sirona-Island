@@ -3,6 +3,7 @@
 $ define || string || victimSurvives || true
 $ define || string || alexLocation || car
 $ define || string || callsPolice || false
+$ define || string || knowsVictimAlive || false
 $ define || string || hasKnife || false
 
 $ define || string || endName || null

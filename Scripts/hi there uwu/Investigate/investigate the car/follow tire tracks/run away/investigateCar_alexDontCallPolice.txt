@@ -1,7 +1,19 @@
-﻿And maybe I did! How do I know!
-Please {name} let me call the police and we might be able to save him if he's not already dead...
+﻿$ if || string || knowsVictimAlive || false
+And maybe I did! How do I know!
+$ endif
+
+$ if || string || knowsVictimAlive || true
+So what! This man could die if we don't call for help!
+$ endif
+
+Please {name} let me call the police and we might be able to save him!
+
+$ if || string || knowsVictimAlive || false
+if he's not already dead...
+$ endif
+
 
 $ choice
 Okay fine, you can call the police || investigateCar_alexCallsPolice
-The man is dead, don't call the police || investigateCar_alexDontCallPoliceFinal
+You matter more, don't call the police || investigateCar_alexDontCallPoliceFinal
 $ endchoice

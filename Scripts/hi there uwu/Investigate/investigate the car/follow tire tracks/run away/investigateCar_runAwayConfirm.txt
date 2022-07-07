@@ -1,15 +1,4 @@
 ﻿Holy shit.
 Okay I'll do as you say.
 I trust you.
-Brb
-
-$ wait || 1.5
-
-Alright, I'm away... I think.
-I need to call the police.
-He could still be alive, I could still save him!
-
-$ choice
-You're right, call the police || investigateCar_alexCallsPolice
-No, they'll think you murdered him! || investigateCar_alexDontCallPolice
-$ endchoice
+$ goto || investigateCar_alexRunsAway

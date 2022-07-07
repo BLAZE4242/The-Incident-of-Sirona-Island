@@ -1,0 +1,14 @@
+﻿I don't want to go to jail...
+Why did I not just pull over when I got tired? Why is this happening to me now?
+
+$ if || string || hasKnife || true
+$ choice
+Stab him with the knife you bought from the car. || killBody_stab
+$ endchoice
+$ endif
+
+$ if || string || hasKnife || false
+$ choice
+Throw him off the edge of the cliff, into the sea. || killBody_sea
+$ endchoice
+$ endif

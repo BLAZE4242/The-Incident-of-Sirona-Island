@@ -4,6 +4,6 @@ I followed the trails and found something then had a panic attack for a few minu
 Like a human body, it's a man.
 
 $ choice
-Is he breathing? || investigateCar_questionAlive
+Is he breathing? || investigateCar_questionBreathing
 Run away right now. || investigateCar_runAway
 $ endchoice

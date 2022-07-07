@@ -1,0 +1,8 @@
+﻿$ wait || 1.5
+What?
+WHAT?
+{name} you didn't mean to write that did you?
+
+$ choice
+When he wakes up he'll report that someone hit him with a car, you'll be arrested! || investigateCar_killBody01
+$ endchoice

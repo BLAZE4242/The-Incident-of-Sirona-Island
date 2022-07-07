@@ -167,10 +167,28 @@
     <Content Include="Scripts\hi there uwu\Investigate\game_03_keepKnife.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Scripts\hi there uwu\Investigate\investigate the car\follow tire tracks\check breathing\investigateCar_debatePolice.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Scripts\hi there uwu\Investigate\investigate the car\follow tire tracks\check breathing\investigateCar_questionBreathing.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Scripts\hi there uwu\Investigate\investigate the car\follow tire tracks\investigateCar_findBody.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Scripts\hi there uwu\Investigate\investigate the car\follow tire tracks\investigateCar_followTire.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Scripts\hi there uwu\Investigate\investigate the car\follow tire tracks\Kills person\investigateCar_killBody.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Scripts\hi there uwu\Investigate\investigate the car\follow tire tracks\Kills person\investigateCar_killBody01.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Scripts\hi there uwu\Investigate\investigate the car\follow tire tracks\Kills person\investigateCar_killBody02.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Scripts\hi there uwu\Investigate\investigate the car\follow tire tracks\Kills person\investigateCar_runAwayAfterKill.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Scripts\hi there uwu\Investigate\investigate the car\follow tire tracks\run away\investigateCar_alexCallsPolice.txt">
@@ -182,6 +200,7 @@
     <Content Include="Scripts\hi there uwu\Investigate\investigate the car\follow tire tracks\run away\investigateCar_alexDontCallPoliceFinal.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Scripts\hi there uwu\Investigate\investigate the car\follow tire tracks\run away\investigateCar_alexRunsAway.txt" />
     <Content Include="Scripts\hi there uwu\Investigate\investigate the car\follow tire tracks\run away\investigateCar_runAway.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -214,7 +233,6 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Scripts\hi there uwu\Investigate\investigate the car\follow tire tracks\check breathing\" />
     <Folder Include="Scripts\hi there uwu\Investigate\search for help\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

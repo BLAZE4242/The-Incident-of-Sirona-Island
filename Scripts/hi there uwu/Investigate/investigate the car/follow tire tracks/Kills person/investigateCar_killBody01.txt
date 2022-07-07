@@ -1,0 +1,7 @@
+﻿{name} that's ridiculous.
+I would never kill someone!
+
+$ choice
+And now you have no choice, unless you want to go to jail for the rest of your life! || investigateCar_killBody02
+You're right, I'm sorry, I shouldn't have asked you to do something as ridiculous as that. || investigateCar_runAwayAfterKill
+$ endchoice

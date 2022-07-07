@@ -1,0 +1,15 @@
+﻿I have no idea!
+I'm gonna check I really hope he is breathing
+
+$ define || string || knowsVictimAlive || true
+
+$ wait || 2
+
+Oh thank fuck...
+He is!
+Yes he's alive!
+
+$ choice
+Kill him. || investigateCar_killBody
+That's great! || investigateCar_debatePolice
+$ endchoice

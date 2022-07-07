@@ -1,0 +1,8 @@
+﻿Oh I'm so relieved!
+But there's still an unconscious body here.
+I need to call the police. We can still save him!
+
+$ choice
+You're right, call the police || investigateCar_alexCallsPolice
+No, they'll arrest you! || investigateCar_alexDontCallPolice
+$ endchoice
