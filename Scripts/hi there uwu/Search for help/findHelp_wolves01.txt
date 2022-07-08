@@ -1,0 +1,15 @@
+﻿Oh right, forgot that lol
+I heard like a wolf howling
+Like in those horror movies
+ugh it's so cold and dark...
+$ wait || 1
+WAIT WTF
+$ wait || 2
+Omg {name}...
+There are literal wolves
+Like, I can see them holy crap that's so scary
+
+$ choice
+Stop messing with me! || findHelp_messingWith
+Shit hide! || findHelp_wolves02
+$ endchoice

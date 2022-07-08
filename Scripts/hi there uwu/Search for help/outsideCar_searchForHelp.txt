@@ -1,0 +1,7 @@
+﻿It's so dark, I can barely see anything.
+I think I'm just going to get lost...
+
+$ choice
+Not if you only go in one direction. || outsideCar_oneDirection
+Can't you use GPS? || outsideCar_gps
+$ endchoice

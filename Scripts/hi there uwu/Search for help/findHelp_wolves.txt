@@ -1,0 +1,8 @@
+﻿Okay, here I go, just gonna walk into complete darkness with my phone torch, how bad could this be?
+Here we go...
+$ wait || 2.5
+Holy shit {name} did you hear that?
+
+$ choice
+Of course I didn't hear that I'm not with you! || findHelp_wolves01
+$ endchoice

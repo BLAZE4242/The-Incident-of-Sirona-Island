@@ -1,0 +1,20 @@
+﻿I'm hiding behind a tree right now
+I think there's like a cabin behind the wolves
+I need to get there but there's a lot of wolves
+Like a crazy amount
+The light to the cabin is on as well someone might be inside!
+Shit wtf do I do?
+
+$ if || string || hasKnife || false
+$ choice
+It's not worth getting attacked by a wolf, quietly walk away from them || findHelp_avoidWolves
+Just run past them into the cabin, really fast though || findHelp_runWolves
+$ endchoice
+$ endif
+
+$ if || string || hasKnife || true
+$ choice
+It's not worth getting attacked by a wolf, quietly walk away from them || findHelp_avoidWolves
+You have a knife, attack the wolves and get to the cabin || findHelp_attackWolves
+$ endchoice
+$ endif
