@@ -1,0 +1,13 @@
+﻿$ define || string || endName || flareShoot
+
+Okay, this is going to be cool!
+I've always wanted to shoot one of these!
+Okay, here goes nothing...
+$ wait || 3
+I don't mean to brag...
+But I just shot a flare gun!
+That was so cool!
+
+$ choice
+Go you! || flareGun_shoot01
+$ endchoice

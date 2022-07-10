@@ -1,0 +1,10 @@
+﻿$ define || string || endName || flareNotShoot
+
+Okay then...
+I just really hope something good happens...
+Guess I'll just keep on wondering around but I'll let you know if anything happens.
+Goodnight {name}...
+
+$ choice
+Goodnight Alex. || ending_decide
+$ endchoice

@@ -1,0 +1,11 @@
+﻿That's a great idea smart ass.
+I'll walk around them, hope there's no more wolves in this area.
+Give me a minute.
+$ wait || 2
+Oh shit {name}...
+Guess what I found!
+
+$ choice
+A really kind person who can help you get out of this mess? || findHelp_avoidWolves01
+A private jet so you can fly of this island? || findHelp_avoidWolves01
+$ endchoice

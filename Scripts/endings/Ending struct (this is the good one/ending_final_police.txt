@@ -45,6 +45,43 @@ $ notype
 You and Alex are both arrested shortly after for murder.
 $ endif
 
+$ if || string || endName || runWolves
+$ notype
+They find an unconscious man laying on the side of the road after being hit by a car.
+$ notype
+As they search into the woods, they find a trail of blood who they assumes belongs to the victim.
+$ notype
+However, as they follow the blood, they find Alex's dead body outside of a cabin. He was killed fighting off the wolves.
+$ notype
+Thankfully, after being hit with a car, the victim survived and will make a full recovery soon.
+$ endif
+
+$ if || string || endName || flareShoot
+$ notype
+They see a men who seem to be carrying a body.
+$ notype
+Suspicious of this, the police arrest these men for the suspected attempted murder of the man.
+$ notype
+Thankfully, after being hit with a car, the victim survived and will make a full recovery soon.
+$ notype
+It's not until a few weeks later that you read on the news that Alex was found dead in a house outside the woods, with no one else home.
+$ notype
+He had killed himself in the house, the police were unaware of a motive.
+$ endif
+
+$ if || string || endName || flareNotShoot
+$ notype
+They find an unconscious man laying on the side of the road after being hit by a car.
+$ notype
+Further investigating into the woods, they discover a bloody trail, which leads to a house outside of the woods.
+$ notype
+It turns out after Alex was wondering around the dark woods, a group of hunters mistook him as a wolf and shot him. They tried to cover up the murder but the police already found the blood before they could clean it.
+$ notype
+The group of hunters were arrested for the murder of Alex. 
+$ notype
+Thankfully, after being hit with a car, the victim survived and will make a full recovery soon.
+$ endif
+
 $ notype
 This game has multiple endings, would you like to try again?
 $ choice

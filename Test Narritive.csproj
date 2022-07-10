@@ -233,7 +233,31 @@
     <Content Include="Scripts\hi there uwu\Investigate\outsideCar.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Scripts\hi there uwu\Search for help\Avoid wolves\findHelp_avoidWolves.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Scripts\hi there uwu\Search for help\Avoid wolves\findHelp_avoidWolves01.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Scripts\hi there uwu\Search for help\Avoid wolves\flareGun_notShoot.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Scripts\hi there uwu\Search for help\Avoid wolves\flareGun_notShoot01.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Scripts\hi there uwu\Search for help\Avoid wolves\flareGun_shoot.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Scripts\hi there uwu\Search for help\Avoid wolves\flareGun_shoot01.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Scripts\hi there uwu\Search for help\findHelp_messingWith.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Scripts\hi there uwu\Search for help\findHelp_runWolves.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Scripts\hi there uwu\Search for help\findHelp_runWolvesConfirm.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Scripts\hi there uwu\Search for help\findHelp_wolves.txt">

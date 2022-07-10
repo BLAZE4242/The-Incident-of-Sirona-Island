@@ -1,0 +1,8 @@
+﻿Oh...
+You're right...
+But what else am I going to do out here? No ones going to come for me!
+
+$ choice
+You'll survive, don't worry, trust me. || flareGun_notShoot01
+You're right, shoot the gun || flareGun_shoot
+$ endchoice

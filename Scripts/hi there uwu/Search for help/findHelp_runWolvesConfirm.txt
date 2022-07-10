@@ -1,0 +1,10 @@
+﻿$ define || string || endName || runWolves
+
+$ wait || 1.5
+Okay, I trust you...
+I don't really want to be holding my phone in case I need to use my hands so I'll stop talking now.
+I'll talk to you in a bit, bye.
+
+$ choice
+Goodbye || ending_decide
+$ endchoice

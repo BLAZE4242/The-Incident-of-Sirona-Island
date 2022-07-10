@@ -1,0 +1,7 @@
+﻿Wtf? That's a terrible idea!
+I'm not really planning on being mauled by a wolf tonight...
+
+$ choice
+The cabin is safe, just run to there and don't look back. || findHelp_runWolvesConfirm
+Yeah this is a dumb idea || findHelp_avoidWolves
+$ endchoice

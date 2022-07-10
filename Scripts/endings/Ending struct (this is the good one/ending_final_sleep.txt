@@ -29,7 +29,7 @@ You haven't heard from Alex in a while.
 $ notype
 Over 2 weeks later, you read on the news; a man who was hit by a car and thrown into sea was found by some sailors. They resuscitated the man who claimed he was hit by a car.
 $ notype
-Using this information the police find and arrest Alex who claims a man named {name} was helping her all along.
+Using this information the police find and arrest Alex who claims a man named {name} was helping him all along.
 $ notype
 You and Alex are both arrested shortly after for attempted murder.
 $ endif
@@ -41,6 +41,47 @@ $ notype
 Over 2 weeks later, you read on the news; a man who was hit by a car and thrown into sea was found by some sailors. They failed to resuscitate the man as he had fatal stab wounds.
 $ notype
 Alex walks away a free man facing no charges and getting away with murder, but forever holds the guilt of it.
+$ endif
+
+$ if || string || endName || runWolves
+$ notype
+You haven't heard from Alex in a while.
+$ notype
+Just a few days later you read on the news that a resident who lives in a cabin in the woods found Alex's body, who was killed trying to fight off the wolves.
+$ notype
+When the police arrived on the scene after the distressed resident called them, they also found blood and skid marks on the road.
+$ notype
+They came to the conclusion that Alex had hit a man with his car, who survived, wondered off into the woods and got lost. The police never found the man.
+$ endif
+
+$ if || string || endName || flareShoot
+$ notype
+You haven't heard from Alex in a while.
+$ notype
+After that, you get a letter from Alex in the mail.
+$ notype
+Alex Writes how he's doing fine, when he shot the flare gun some local hunters located and took him to their house outside of the woods.
+$ notype
+The hunters went the next morning out again to look for what Alex hit, and found an unconscious man.
+$ notype
+Knowing Alex would be arrested for this, the hunters resuscitated the man and told him he had just fallen pretty bad.
+$ notype
+They let the man back into society as he was no longer a threat to Alex getting arrested.
+$ notype
+Alex now lives with the hunters, fearing that if he goes back on the grid, he will be suspected and arrested.
+$ notype
+Alex wishes you well and requests for you to burn the letter and all evidence it was sent to you.
+$ endif
+
+$ if || string || endName || flareNotShoot
+$ notype
+You haven't heard from Alex in a while.
+$ notype
+It really bugs you, maybe something happened to him?
+$ notype
+He said he would text you if anything happened, maybe something happened to him?
+$ notype
+You decide to file a missing persons report, hopefully he will be safe when he's found...
 $ endif
 
 $ notype

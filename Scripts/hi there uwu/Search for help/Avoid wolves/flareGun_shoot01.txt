@@ -1,0 +1,12 @@
+﻿$ define || string || endName || flareShoot
+// I know that's already there in the file, just a bit easier for me to keep track of it lol
+
+K, guess I have to play the wait game now.
+Hopefully someone will see this and get me out of here.
+...
+Goodnight {name}.
+And thank you for helping me, I could have ended up a lot worse if you hadn't helped me...
+
+$ choice
+Goodnight Alex. || ending_decide
+$ endchoice

@@ -1,0 +1,15 @@
+﻿No! But I wish...
+It's an empty backpack!
+Idk who it belongs to tho...
+Wait actually there is something in here...
+What is this?
+$ wait || 0.5
+Oh shit.
+I think I found something good!
+It's a flare gun, yknow those guns people shoot in the air for help when they're lost in movies?
+This is good... right?
+
+$ choice
+Yes! Shoot it now! || flareGun_shoot
+If you shoot it they'll know you're out here and if you accidentally hit a man with your car... || flareGun_notShoot
+$ endchoice

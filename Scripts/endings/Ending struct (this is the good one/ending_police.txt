@@ -6,5 +6,5 @@ $ notype
 
 $ choice
 I'm here to report a crime, my friend just committed a hit and run. || ending_final_police
-Actually, never mind || ending_police
+Actually, never mind || ending_final_sleep
 $ endchoice
