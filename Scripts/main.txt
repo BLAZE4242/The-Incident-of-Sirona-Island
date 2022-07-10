@@ -8,7 +8,7 @@ $ notype
 3:00 AM, Austin, Texas.
 $ notype
 A man wakes up to his phone being spammed with messages.
-$ define || string || name || input || What is the name of the man?
+$ define || string || name || input || What is the name of the man? (Type)
 $ notype
 {name} checks his phone.
 $ wait || 2

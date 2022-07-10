@@ -13,6 +13,8 @@ u there?
 {name}??
 {name} pls pick up
 fuck {name}, im fucking freaking out pick up rn pls
+$ notype
+(Use up and down arrow keys to select and enter to confirm)
 
 
 
