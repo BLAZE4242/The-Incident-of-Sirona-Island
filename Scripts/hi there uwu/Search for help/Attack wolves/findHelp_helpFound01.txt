@@ -1,0 +1,8 @@
+﻿So this cabin... this old lady is living here.
+I told her I'm just stuck in the woods... minus the "I might have hit a person with my car and maybe killed them" part...
+She invited me to stay the night, which is great! I'll actually have a bed!
+
+$ choice
+That's great! Stay the night with her and contact me in the morning! || findHelp_stayNight
+She knows you're here, she's a witness. You have to kill her... || findHelp_murder
+$ endchoice

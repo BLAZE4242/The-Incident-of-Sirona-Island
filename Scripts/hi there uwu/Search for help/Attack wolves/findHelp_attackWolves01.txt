@@ -1,0 +1,12 @@
+﻿I mean... I'm alive?
+It was so scary, I ran towards one of them and stabbed it, then all the other wolves ran away.
+But {name}... I just stabbed a wolf...
+That was so cool!
+But also disgusting at the same time...
+I really hope it was worth it, let's see what's in this cabin...
+$ wait || 1.5
+Okay, I'm gonna knock, gimme a sec.
+
+$ choice
+Goodluck. || findHelp_helpFound
+$ endchoice

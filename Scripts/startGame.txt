@@ -1,4 +1,4 @@
-﻿$ define || config || dev || true
+﻿$ define || config || dev || false
 
 $ define || string || victimSurvives || true
 $ define || string || alexLocation || car

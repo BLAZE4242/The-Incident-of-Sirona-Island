@@ -4,6 +4,7 @@ $ notype
 The next morning the police arrive on the scene.
 
 $ if || string || endName || alexRest
+$ define || string || endNum || 1
 $ notype
 They find an unconscious man laying on the side of the road after being hit by a car.
 $ notype
@@ -15,6 +16,7 @@ Thankfully, after being hit with a car, the victim survived and will make a full
 $ endif
 
 $ if || string || endName || alexFindBodyAndRun
+$ define || string || endNum || 3
 $ notype
 They find an unconscious man laying on the side of the road after being hit by a car.
 $ notype
@@ -24,6 +26,7 @@ Thankfully, after being hit with a car, the victim survived and will make a full
 $ endif
 
 $ if || string || endName || killSea
+$ define || string || endNum || 5
 $ notype
 They find Alex, who they arrest on scene.
 $ notype
@@ -35,6 +38,7 @@ You and Alex are both arrested shortly after for attempted murder.
 $ endif
 
 $ if || string || endName || killStab
+$ define || string || endNum || 7
 $ notype
 They find Alex, who they arrest on scene.
 $ notype
@@ -46,6 +50,7 @@ You and Alex are both arrested shortly after for murder.
 $ endif
 
 $ if || string || endName || runWolves
+$ define || string || endNum || 9
 $ notype
 They find an unconscious man laying on the side of the road after being hit by a car.
 $ notype
@@ -57,6 +62,7 @@ Thankfully, after being hit with a car, the victim survived and will make a full
 $ endif
 
 $ if || string || endName || flareShoot
+$ define || string || endNum || 11
 $ notype
 They see a men who seem to be carrying a body.
 $ notype
@@ -70,6 +76,7 @@ He had killed himself in the house, the police were unaware of a motive.
 $ endif
 
 $ if || string || endName || flareNotShoot
+$ define || string || endNum || 13
 $ notype
 They find an unconscious man laying on the side of the road after being hit by a car.
 $ notype
@@ -82,6 +89,36 @@ $ notype
 Thankfully, after being hit with a car, the victim survived and will make a full recovery soon.
 $ endif
 
+$ if || string || endName || stayNight
+$ define || string || endNum || 15
+$ notype
+They find an unconscious man laying on the side of the road after being hit by a car.
+$ notype
+Further investigating into the woods, they discover a bloody trail, which leads to a cabin in the woods.
+$ notype
+They find Alex in there, who they put under arrest immediately.
+$ notype
+Thankfully, after being hit with a car, the victim survived and will make a full recovery soon.
+$ endif
+
+$ if || string || endName || stayNightMurder
+$ define || string || endNum || 17
+$ notype
+They find an unconscious man laying on the side of the road after being hit by a car.
+$ notype
+Further investigating into the woods, they discover a bloody trail, which leads to a cabin in the woods.
+$ notype
+They find Alex in there, as well as the body of an old lady who identifies as the house owner.
+$ notype
+Alex is put under arrest immediately.
+$ notype
+Thankfully, after being hit with a car, the victim survived and will make a full recovery soon.
+$ endif
+
+$ notype
+This incident is documented and forever known as The Incident of Sirona Island.
+$ notype
+You got ending {endNum}/18
 $ notype
 This game has multiple endings, would you like to try again?
 $ choice

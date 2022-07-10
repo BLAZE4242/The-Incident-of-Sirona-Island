@@ -1,0 +1,6 @@
+﻿$ wait || 2
+Hey {name}, you still there?
+
+$ choice
+Yup, it's been like 5 minutes what happened? || findHelp_helpFound01
+$ endchoice

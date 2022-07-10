@@ -1,0 +1,12 @@
+﻿$ define || string || endName || stayNight
+
+Yeah, I'm gonna take her up on that.
+I really hope she's not a creep or something lol.
+$ wait || 1.5
+Honestly, thanks {name}.
+I could have ended up a lot worse if it weren't for you helping me tonight.
+Goodnight!
+
+$ choice
+Goodnight Alex. || ending_decide
+$ endchoice

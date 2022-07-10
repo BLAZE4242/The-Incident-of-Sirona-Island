@@ -1,0 +1,9 @@
+﻿$ wait || 1
+{name} what?
+Are you joking?
+I'm not a murderer, why would I do that?
+
+$ choice
+I'm sorry, it's the only option unless you want to be arrested. || findHelp_murder01
+You're right, you should just spend the night there instead. || findHelp_stayNight
+$ endchoice

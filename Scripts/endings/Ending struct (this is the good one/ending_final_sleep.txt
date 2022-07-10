@@ -2,6 +2,7 @@ $ notype
 THE END.
 
 $ if || string || endName || alexRest
+$ define || string || endNum || 2
 $ notype
 You haven't heard from Alex in a while.
 $ notype
@@ -11,6 +12,7 @@ Alex had hit a man with his car, who somehow survived the incident, but went mis
 $ endif
 
 $ if || string || endName || alexFindBodyAndRun
+$ define || string || endNum || 4
 $ notype
 You haven't heard from Alex in a while.
 $ notype
@@ -24,6 +26,7 @@ It would not be until years later, Alex would confess and be arrested.
 $ endif
 
 $ if || string || endName || killSea
+$ define || string || endNum || 6
 $ notype
 You haven't heard from Alex in a while.
 $ notype
@@ -35,6 +38,7 @@ You and Alex are both arrested shortly after for attempted murder.
 $ endif
 
 $ if || string || endName || killStab
+$ define || string || endNum || 8
 $ notype
 You haven't heard from Alex in a while.
 $ notype
@@ -44,6 +48,7 @@ Alex walks away a free man facing no charges and getting away with murder, but f
 $ endif
 
 $ if || string || endName || runWolves
+$ define || string || endNum || 10
 $ notype
 You haven't heard from Alex in a while.
 $ notype
@@ -55,6 +60,7 @@ They came to the conclusion that Alex had hit a man with his car, who survived, 
 $ endif
 
 $ if || string || endName || flareShoot
+$ define || string || endNum || 12
 $ notype
 You haven't heard from Alex in a while.
 $ notype
@@ -74,6 +80,7 @@ Alex wishes you well and requests for you to burn the letter and all evidence it
 $ endif
 
 $ if || string || endName || flareNotShoot
+$ define || string || endNum || 14
 $ notype
 You haven't heard from Alex in a while.
 $ notype
@@ -84,6 +91,36 @@ $ notype
 You decide to file a missing persons report, hopefully he will be safe when he's found...
 $ endif
 
+$ if || string || endName || stayNight
+$ define || string || endNum || 16
+$ notype
+Alex messages you the next day, thanking you for the help.
+$ notype
+He left the old cabin and went out to rent a car and continue his holiday.
+$ notype
+It would only be a few days later that blood was discovered where Alex had had his accident.
+$ notype
+The police found his car as well, making him the suspect of a murder no one could find the victim for.
+$ notype
+Alex was later arrested for suspected murder, even though the body was never found.
+$ endif
+
+$ if || string || endName || stayNightMurder
+$ define || string || endNum || 17
+$ notype
+You haven't heard from Alex in a while.
+$ notype
+The next day Alex goes out and finds what he hit with his car, a man.
+$ notype
+Alex murders the man with the knife, then burns his body with tools from the cabin. He does the same to the old lady he murdered the night before.
+$ notype
+Alex has officially gone insane. But at least he got away with murder...
+$ endif
+
+$ notype
+This incident is documented and forever known as The Incident of Sirona Island.
+$ notype
+You got ending {endNum}/18
 $ notype
 This game has multiple endings, would you like to try again?
 $ choice

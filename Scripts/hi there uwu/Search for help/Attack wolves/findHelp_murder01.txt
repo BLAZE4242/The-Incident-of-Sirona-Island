@@ -1,0 +1,21 @@
+﻿$ define || string || endName || stayNightMurder
+
+Holy shit...
+I don't want to be arrested...
+$ wait || 1
+Fuck...
+$ wait || 1.5
+Okay, here goes nothing.
+$ wait || 2.5
+...I just did that
+Why did I just do that...
+Why?
+Why did you make me do that?
+What's wrong with you?
+She was just trying to be nice to me, and you made me kill her.
+You're not a good person {name}.
+Bye.
+
+$ choice
+Goodbye Alex... || ending_decide
+$ endchoice
