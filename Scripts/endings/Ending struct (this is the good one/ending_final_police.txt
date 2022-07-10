@@ -118,7 +118,11 @@ $ endif
 $ notype
 This incident is documented and forever known as The Incident of Sirona Island.
 $ notype
-You got ending {endNum}/18
+You got ending {endNum}/19
+$ notype
+Thank you for playing, this game was made for the Text-Based Jam
+$ notype
+Programmed and written by BLAZE (BLAZE#0420)
 $ notype
 This game has multiple endings, would you like to try again?
 $ choice
